@@ -44,10 +44,18 @@
          "goodsImg":"http://7xjyw1.com1.z0.glb.clouddn.com/pos003.jpg",
         "goodsName":"快乐全家桶",
         "price":"80"
-    }, {
+    }, 
+    {
         "goodsId":"20",
          "goodsImg":"http://7xjyw1.com1.z0.glb.clouddn.com/pos002.jpg",
         "goodsName":"香脆鸡柳",
         "price":"17"
-    }]
+    },
+    {
+        "goodsId":"20",
+         "goodsImg":"http://7xjyw1.com1.z0.glb.clouddn.com/pos002.jpg",
+        "goodsName":"香脆鸡柳",
+        "price":"17"
+    }
+    ]
 ]
