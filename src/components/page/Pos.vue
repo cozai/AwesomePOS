@@ -129,7 +129,7 @@ export default {
   },
   created() {
     axios
-      .get("../../../static/sql/type1Goods.json")
+      .get("../../../static/sql/type1Goods.js")
       .then(response => {
         console.log(response);
         this.oftenGoods = response.data;
@@ -140,7 +140,7 @@ export default {
       });
 
     axios
-      .get("../../../static/sql/type2Goods.json")
+      .get("../../../static/sql/type2Goods.js")
       .then(response => {
         // console.log(response);
         this.type0Goods = response.data[0];
