@@ -253,6 +253,7 @@ export default {
   padding: 10px;
   margin: 10px;
   background-color: #fff;
+  cursor: pointer;
 }
 .o-price {
   color: #5887ff;
