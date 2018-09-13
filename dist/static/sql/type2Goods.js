@@ -3,7 +3,7 @@
         "goodsId":"1",
         "goodsImg":"http://7xjyw1.com1.z0.glb.clouddn.com/pos001.jpg",
         "goodsName":"香辣鸡腿堡",
-        "price":"18"
+        "price":"17"
     }, {
         "goodsId":"2",
         "goodsImg":"http://7xjyw1.com1.z0.glb.clouddn.com/pos002.jpg",
