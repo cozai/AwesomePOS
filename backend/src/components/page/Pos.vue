@@ -131,7 +131,7 @@ export default {
     const date = new Date().getTime();
     axios
       // .get("../../../static/sql/type1Goods.js")
-      .get("https://cozai.github.io/AwesomePOS/static/sql/type1Goods.js?"+date)
+      .get("https://cozai.github.io/projects/backend/static/sql/type1Goods.js?"+date)
       .then(response => {
         console.log(response);
         this.oftenGoods = response.data;
@@ -142,7 +142,7 @@ export default {
       });
 
     axios
-      .get("https://cozai.github.io/AwesomePOS/static/sql/type2Goods.js?"+date)
+      .get("https://cozai.github.io/projects/backend/static/sql/type2Goods.js?"+date)
       .then(response => {
         // console.log(response);
         this.type0Goods = response.data[0];
