@@ -54,7 +54,7 @@ $(function(){
     });
     function pList(type,pageNum){
         $.ajax({
-            type:"get",
+            type:"post",
             url:"data/product_select.php",
             data:{type:type,pageNum:pageNum},
             success:function(d){

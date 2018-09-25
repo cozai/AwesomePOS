@@ -23,7 +23,7 @@ $(function(){
 
     if(sessionStorage.uid){
         $.ajax({
-            type:"post",
+            type:"get",
             url:"data/cart_detail_select.php",
             data:{uid:sessionStorage.uid},
             success:function(d){

@@ -27,7 +27,7 @@ $(function(){
     });
     function newList(pageCur){
         $.ajax({
-            type:"post",
+            type:"get",
             url:"data/news_select.php",
             data:{pageNum:pageCur},
             success:function(d){
