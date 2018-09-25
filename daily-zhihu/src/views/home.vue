@@ -1,15 +1,15 @@
 <template>
 <div>
 	<m-swipe swipeid="swipe" ref="swiper" :autoplay="3000" effect="slide">
-		<div @click="go(top.id)" v-for="top in tops" class="swiper-slide" slot="swiper-con">
+		<div @click="go(top.id)" v-for="(top,index) in tops" class="swiper-slide" slot="swiper-con" :key="index">
 			<img :src="top.image">
 			<div></div>
 			<h3>{{top.title}}</h3>
 		</div>
 	</m-swipe>
-	<div class="list" v-for="x in list">
+	<div class="list" v-for="(x,index) in list" :key="index">
 		<p class="list-time">{{x.date.substring(0,4)+"/"+x.date.substring(4,6)+"/"+x.date.substring(6,8)}}</p>
-		<div class="list-con" link @click="go(y.id)" v-for="y in x.stories">
+		<div class="list-con" link @click="go(y.id)" v-for="(y,index) in x.stories" :key="index">
 			<img :src="y.images[0]" />
 			<p>{{y.title}}</p>
 		</div>

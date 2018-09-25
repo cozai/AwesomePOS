@@ -10,7 +10,7 @@
 				<span>首页</span>
 				<i class="iconfont" :class="{'iconcolor icon-ic_star_black':num == 1,'icon-ic_star':num != 1}" />
 			</li>
-			<li :class="{chose:num == x.id}" v-for="(x, index) in list" @click="change(x.id)">
+			<li :class="{chose:num == x.id}" v-for="(x, index) in list" @click="change(x.id)" :key="index">
 				<span>{{x.name}}</span>
 				<i class="iconfont " :class="{'iconcolor icon-ic_star_black':num == x.id,'icon-ic_star':num != x.id}" />
 			</li>

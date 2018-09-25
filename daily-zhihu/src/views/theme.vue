@@ -15,7 +15,7 @@
 		</h3>
 		</div>
 		<div class="list">
-			<div class="list-con" link @click="go(y.id)" v-for="y in list.stories">
+			<div class="list-con" link @click="go(y.id)" v-for="(y,index) in list.stories" :key="index">
 				<img v-if="y.images" :src="y.images[0]" />
 				<p>{{y.title}}</p>
 			</div>
